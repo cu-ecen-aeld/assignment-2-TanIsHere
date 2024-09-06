@@ -1,6 +1,6 @@
 #!/bin/sh
 # Tester script for assignment 1 and assignment 2
-# Author: Siddhant Jajoo
+# Author: Mahmoud ELTANTAWY
 
 set -e
 set -u
@@ -8,7 +8,7 @@ set -u
 NUMFILES=10
 WRITESTR=AELD_IS_FUN
 WRITEDIR=/tmp/aeld-data
-username=$(cat conf/username.txt)
+username=$(cat ../conf/username.txt)
 
 if [ $# -lt 3 ]
 then
